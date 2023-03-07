@@ -1,0 +1,29 @@
+@keyframes animacao-caixa{
+    from{ /*Inicio*/
+        background: #009670; 
+        border-radius: 0px;
+        left: 0px;
+        top: 0px;
+    }
+
+    to{ /*Final*/
+        background: #000000;
+        border-radius: 200px;
+        left: 200px;
+        top: 200px;
+
+    }
+}
+
+
+#caixa{
+    width: 300px;
+    height: 300px;
+    background: #009670;
+    position: relative;
+    /* animation-name: animacao-caixa;
+    animation-iteration-count: infinite; */
+    animation: animacao-caixa  5s 1s infinite alternate; /* Todas as outras tags podem ser exemplificadas com animation, sendo o primeirp valor a duração, o segundo o delay, o terceiro a quantidade de vezes que ira repedir, e o quarto a direção*/
+}
+
+
