@@ -1,0 +1,14 @@
+#caixa{
+    width: 300px;
+    height: 300px;
+    padding: 8px;
+    margin: 20px;
+    background: #009670;
+    box-shadow: 20px 20px 2px#000000;  /* Os mesmos parametros para p text-shadow se aplica para o box-shadow*/  /* como quarto valor existe o insplet(espalhar) onde ela espalha a sombra para os lados*/
+}
+
+#caixa h2{
+    color: #fff;
+    background: #ffffff62;
+    text-shadow: 50px 0px  1px rgb(0,0,0,0.5); /* O primeiro valor define a movimentação da sombra para horizontal, enquanto o segundo valor define para a vertical, e o terceiro valor define o blur da sombra*/
+}
