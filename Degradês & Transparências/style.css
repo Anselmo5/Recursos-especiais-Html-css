@@ -1,0 +1,19 @@
+#caixa{
+    margin: 10px;
+    padding: 10px;
+    width: 300px;
+    height: 300px;
+    border-radius: 20px 85px;
+    box-sizing: border-box;
+    /* background: linear-gradient(to right, #000,#fff,#fff4); */
+   /* background: radial-gradient(to top, #fff,#ff2,#fff9); */ /* Uma segunda forma de fazer um gradiente*/
+   background: #ff4;
+}
+
+#caixa h2{
+background: rgb(255,255,255,0.5);
+}
+
+#caixa p{
+    background: rgb(255,255,255,0.5);
+}
