@@ -3,9 +3,7 @@
     height: 500px;
     margin: 10px;
     display: flex;
-    justify-content: center;
-    flex-wrap:wrap-reverse;
-  
+    align-items: stretch;
 }
 
 
