@@ -1,0 +1,19 @@
+#container{
+    background: #dcdcdc;
+    height: 400px;
+    margin: 10px;
+    display: flex;
+    flex-direction: ;
+  
+}
+
+
+.item{
+    background: #fff;
+    border: 1px solid #000;
+    margin: 10px;
+    width: 100px;
+    height: 100px;
+
+
+}
