@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title> <link rel="stylesheet" href="style.css">
+</head>
+<body>
+        <label for="nome"> Nome</label>
+        <input type="text" name="nome" id="nome" required>
+        <br>
+
+
+        
+        <label for="email"> Email</label>
+        <input type="email"  id="email" required autofocus> <!--Autofocus - quer dizer que quando alguem entrar na pagina web já irar ser direcionada a area de foco -->
+        <br>
+
+
+        
+        <label for="numero"> numero</label>
+        <input type="number" id="numero" required  min="10" max="20" step="5">  <!-- required - requisito - exemplo prechencha esse campo antes de enviar-->
+            <!-- min - max - o Numero minimo e cinco e o maximo e 10 o valor so cerar enviado se os atributos minimos e maximos forem respeitados-->
+            <!-- Step - conduz os a alteções dos numeros de quanto em quanto ele vai almentar, nesse caso será de cinco em cinco-->
+        <br>
+
+
+        
+        <label for="url"> Url</label>
+        <input type="url"  id="url" placeholder="Http:// www">
+        <br>
+
+       
+
+        <label for="Pesquisa"> Pesquisa</label>
+        <input type="search"  id="Pesquisa" placeholder="Limpesa">
+        <br>
+
+        <label for="range"> range</label>
+        <input type="range"  id="range" placeholder="Limpesa"  value="5"  min="10"
+        max="20">  <!-- no input range podemos definir um valor inicial com a tag value, como mostrado acima-->
+        <br>
+
+        <label for="data"> Data</label>
+        <input type="date"  id="data" placeholder="Limpesa">  
+        <br>
+
+
+        <label for="Cor"> Cor</label>
+        <input type="color"  id="Cor" placeholder="Limpesa">  
+        <br>
+
+
+        <input type="submit" name="" value="Enviar">
+</body>
+</html>
