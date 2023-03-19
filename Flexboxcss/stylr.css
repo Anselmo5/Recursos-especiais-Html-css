@@ -1,9 +1,10 @@
 #container{
     background: #aaaaaa;
-    height: 400px;
+    height: 500px;
     margin: 10px;
     display: flex;
-    justify-content:space-between;
+    justify-content: center;
+    flex-wrap:wrap-reverse;
   
 }
 
@@ -14,6 +15,7 @@
     margin: 10px;
     width: 100px;
     height: 100px;
+    
 
 
 }
