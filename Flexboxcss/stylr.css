@@ -1,15 +1,15 @@
 #container{
-    background: #dcdcdc;
+    background: #aaaaaa;
     height: 400px;
     margin: 10px;
     display: flex;
-    flex-direction: ;
+    justify-content:center;
   
 }
 
 
 .item{
-    background: #fff;
+    background: #ece1e1;
     border: 1px solid #000;
     margin: 10px;
     width: 100px;
