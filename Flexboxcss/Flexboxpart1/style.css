@@ -1,0 +1,44 @@
+#container{
+    background: #aaaaaa;
+    height: 600px;
+    margin: 10px;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    align-items: baseline;
+}
+
+
+.item{
+    background: #ece1e1;
+    border: 1px solid #000;
+    margin: 10px;
+    width: 100px;
+    height: 100px;
+    flex-grow:1 ;  /* Define a proporção de espaço ocupado por um item*/
+
+
+}
+
+/* 
+.ordem1{
+    order: 1;
+}
+
+.ordem2{
+    order: 2;
+}
+.ordem3{
+    order: 3;
+}
+
+.ordem4{
+    order: 4;
+}
+
+  */
+
+
+  .item1{
+    flex-grow: 1;
+  }
