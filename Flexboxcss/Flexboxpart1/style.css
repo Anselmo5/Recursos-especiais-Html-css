@@ -15,26 +15,31 @@
     margin: 10px;
     width: 100px;
     height: 100px;
-    flex-grow:1 ;  /* Define a proporção de espaço ocupado por um item*/
-   
+    flex-grow:1;  /* Define a proporção de espaço ocupado por um item*/
+   flex-shrink: ; /* Define a capacidade de redução de tamanho do item*/
 
 }
 
 
     .item1{
-    flex-grow:1 ;
+    /* flex-grow:1 ; */
+    /* flex-shrink:2; */
+    flex-basis: ;
   }
 
     .item2{
-    flex-grow:2;
+    /* flex-grow:2; */
+    /* flex-shrink: 2; */
   }
   
      .item3{
-    flex-grow:3 ;
+    /* flex-grow:2; */
+    /* flex-shrink: 2; */
   }
   
     .item4{
-    flex-grow:4 ;
+    /* flex-grow:4 ; */
+    /* flex-shrink: 4; */
   }
 
 /* 
