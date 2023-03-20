@@ -15,9 +15,9 @@
     margin: 10px;
     width: 100px;
     height: 100px;
-    flex-grow:1;  /* Define a proporção de espaço ocupado por um item*/
-    flex-shrink: ; /* Define a capacidade de redução de tamanho do item*/
-    flex-basis: ; /*Indica o tamanho inicial do flex(item) antes da distribuição do espaço restante*/
+    /*flex-grow:1; */ /* Define a proporção de espaço ocupado por um item*/
+   /* flex-shrink: ;*/ /* Define a capacidade de redução de tamanho do item*/
+   /* flex-basis: ;*/ /*Indica o tamanho inicial do flex(item) antes da distribuição do espaço restante*/
 
 }
 
@@ -25,7 +25,7 @@
     .item1{
     /* flex-grow:1 ; */
     /* flex-shrink:2; */
-    flex-basis: ;
+    flex-basis: auto ;
   }
 
     .item2{
